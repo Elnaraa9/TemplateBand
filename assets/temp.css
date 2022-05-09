@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+li {
+    float: left;
+}
+li a, .moree {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover,.more:hover .moree {
+    background-color: rgb(189, 186, 186);
+}
+li.more {
+    display: inline-block;
+}
+.more-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.more-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.more-content a:hover {
+    background-color: #f1f1f1;
+}
+.more:hover .more-content {
+    display: block;
+}
+.icon {
+    float: right;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1265px;
+  position: relative;
+  margin: auto;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 58px;
+  width: 100%;
+  text-align: center;
+}
+.txt{
+    color:#f2f2f2;
+    font-size: 12px;
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 22px;
+    width: 100%;
+    text-align: center;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.section2-content{
+    text-align: center;
+    max-height: 1000px;
+}
+.theband{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 13px;
+}
+.text-s2{
+    font-family: 'Philosopher', sans-serif;
+    color: #717171;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.text1-s2{
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 220px;
+    margin-left: 230px;
+}
+.name{
+    text-align: center;
+    margin-bottom: 17px;
+}
+.images{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.image{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.s2-img{
+    height: 150px;
+    width: 155px;
+    border-radius: 4px;
+    margin-bottom: 65px;
+}
+.background{
+    color: #f1f1f1;
+    background-color: black;
+}
+.date{
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+}
+.text-s3{
+    font-family: 'Philosopher', sans-serif;
+    color: #717171;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 3px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button1 {background-color: #f44336;} 
+.button2 {background-color: #f44336;}
+.numberCircle {
+    float: right;
+    border-radius: 60%;
+    padding: 0.5px 2.5px;
+    background: rgb(0, 0, 0);
+    border: 3px solid rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: 16px Arial, sans-serif;
+}
+.tour-dates{
+    font-family: Verdana,sans-serif;
+    color: #717171;
+    font-size: 15px;
+    line-height: 1.5;
+    border-collapse: collapse;
+    width: 50%; 
+    margin-left: 300px;
+    margin-right: 300px;
+}
+td{
+ border: 1px solid #dddddd;
+ background-color: #f1f1f1;
+  text-align: left;
+  padding: 4px;
+}
+.contact{
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+}
+.text-s4{
+    font-family: 'Philosopher', sans-serif;
+    color: #717171;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+.map{
+    max-width: 1263px;
+}
